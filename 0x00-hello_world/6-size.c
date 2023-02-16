@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - A program that prints size of various types
- * Return 0
+ * Return 0 (Successful)
  */
 
 int main(void)
@@ -14,7 +14,7 @@ float e;
 
 printf("Size of a char: %zu byte(s)\n", (unsigned long)
 sizeof(a));
-printf("Size of a int: %zu byte(s)\n", (unsigned long)
+printf("Size of an int: %zu byte(s)\n", (unsigned long)
 sizeof(b));
 printf("Sizee of a long int: %zu byte(s)\n", (unsigned long)
 sizeof(c));
