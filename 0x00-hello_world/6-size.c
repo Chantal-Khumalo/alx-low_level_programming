@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - A program that prints size of various types
- * Return 0 (Successful)
+ * Return 0 (Success)
  */
 
 int main(void)
@@ -16,7 +16,7 @@ printf("Size of a char: %zu byte(s)\n", (unsigned long)
 sizeof(a));
 printf("Size of an int: %zu byte(s)\n", (unsigned long)
 sizeof(b));
-printf("Sizee of a long int: %zu byte(s)\n", (unsigned long)
+printf("Size of a long int: %zu byte(s)\n", (unsigned long)
 sizeof(c));
 printf("Size of a long long int: %zu byte(s)\n", (unsigned long)
 sizeof(d));
